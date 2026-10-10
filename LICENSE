@@ -1,0 +1,79 @@
+MIT License
+
+Copyright (c) 2026 a8journey (A8之路)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+ADDITIONAL DISCLAIMER (applies to all code here, and especially to the smart
+contracts under `contracts/` and the scripts under `scripts/`)
+================================================================================
+
+NO FEE, NO SERVICE, NO CUSTODY. This software is published free of charge and
+is not operated as a paid service. It is NON-CUSTODIAL: the authors never hold
+your private keys, never take custody of your funds or assets, and never move
+your money. Everything the on-chain contracts do is public and verifiable on a
+block explorer. Because there is no approval step and no custody, the software
+cannot reach anything in your wallet beyond the single transaction you yourself
+sign and send.
+
+USE ENTIRELY AT YOUR OWN RISK. On-chain transactions are IRREVERSIBLE. Mints can
+fail (sold out, not live, allowlist-gated, price changed, or contract-specific
+reverts) and spent gas is NOT refunded. Smart-contract software can contain bugs;
+you are responsible for reviewing it before use.
+
+NOT AUDITED unless a specific deployment states otherwise. The reference contracts
+here are provided for study and testing; do not deploy them to mainnet or route
+real value through them without an independent professional security audit and
+your own testing. See `SKILL.md` / `README.md` for the current status.
+
+YOUR COMPLIANCE, YOUR RESPONSIBILITY. Some tooling here can mint more than one
+item per wallet by using multiple addresses. Whether doing so complies with a
+given NFT project's rules, a marketplace's terms of service, or the laws and
+regulations that apply to you is entirely YOUR responsibility to determine. The
+authors make no representation that any particular use is permitted.
+
+NOT FINANCIAL, INVESTMENT, OR LEGAL ADVICE. Nothing here is advice of any kind.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHORS ARE NOT LIABLE FOR ANY LOSS
+OF FUNDS, ASSETS, OPPORTUNITY, OR DATA ARISING FROM THE USE OF THIS SOFTWARE.
+
+--------------------------------------------------------------------------------
+免责声明(中文)
+
+免费、非服务、非托管。 本软件免费公开,不作为付费服务运营,且为**非托管**:作者
+从不持有你的私钥、不托管你的任何资金或资产、不经手你的钱。链上合约的全部行为公开
+可查。由于没有授权(approve)步骤、不托管,本软件能触及的上限,就是你**亲自签名并
+发送的那一笔交易**里的价值,够不到你钱包里的其它任何东西。
+
+风险完全自担。 链上交易**不可逆**;mint 可能因售罄、未开售、白名单、价格变动或合约
+自身的 revert 而失败,已花的 gas **不退**。智能合约可能有 bug,使用前你有责任自行审查。
+
+未经审计(除非某次具体部署另行说明)。 这里的参考合约仅供学习与测试;未经**独立专业
+安全审计**和你自己的测试之前,请勿部署到主网、勿让真实资金经过它们。当前状态见
+`SKILL.md` / `README.md`。
+
+合规由你负责。 本仓库部分工具可通过多个地址实现「每钱包多铸」。这样做是否符合某个
+NFT 项目的规则、某个交易市场的条款、以及适用于你的法律法规,**完全由你自行判断并承担
+后果**。作者不对任何特定用途的合法性作任何保证。
+
+非金融、投资或法律建议。 本仓库任何内容都不构成任何形式的建议。
+
+在法律允许的最大范围内,作者不对因使用本软件导致的任何资金、资产、机会或数据损失
+承担责任。
